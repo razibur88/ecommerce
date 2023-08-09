@@ -52,7 +52,7 @@ let registrationControllers = async (req,res)=>{
                         {$unset:{randomOtp:""}},
                         {new:true}
                     )
-                },10000)
+                },60000)
 
                
                 res.send({
