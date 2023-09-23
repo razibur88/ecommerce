@@ -1,5 +1,5 @@
-function otpTemplate(otp){
-    return `Your Otp is ${otp}`
+function otpTemplate(otp) {
+  return `Your Otp is ${otp}`;
 }
 
-module.exports = otpTemplate
+module.exports = otpTemplate;
